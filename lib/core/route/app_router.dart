@@ -1,6 +1,7 @@
 import 'package:doctors_reservation/core/route/routes.dart';
 import 'package:flutter/material.dart';
 
+import '../../features/login/ui/login_screen.dart';
 import '../../features/onboarding/onboarding_screen.dart';
 
 class AppRouter {
@@ -9,7 +10,7 @@ class AppRouter {
       case Routes.onboardingScreen:
         return MaterialPageRoute(builder: (_) => OnboardingScreen());
       case Routes.loginScreen:
-        return MaterialPageRoute(builder: (_) => Container());
+        return MaterialPageRoute(builder: (_) => LoginScreen());
       default:
         return MaterialPageRoute(
           builder:
