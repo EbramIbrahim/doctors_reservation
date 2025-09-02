@@ -50,4 +50,10 @@ class TextStyles {
       color: Colors.white,
       fontWeight: FontWeight.w500
   );
+
+  static TextStyle font11GrayRegular = TextStyle(
+      fontSize: 11.sp,
+      color: AppColors.textGray,
+      fontWeight: FontWeight.w500
+  );
 }
